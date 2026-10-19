@@ -230,7 +230,11 @@ export const projects: Project[] = [
       es: "Endless runner en el que un ornitorrinco corre por un museo, hecho con Grupo Malva para la jam de Dvbahía 2024. Programé todo el juego. En 2026 se corrigieron errores, se terminó de pulir y se sumó una versión para navegador.",
     },
     tags: ["C#", "Unity", "Android", "WebGL"],
-    links: [{ kind: "code", href: "https://github.com/agusvillamil/RunGodinRun" }],
+    links: [
+      // Build served from the agusvillamil/run-godin-run repo (GitHub Pages project site).
+      { kind: "play", href: "/run-godin-run/" },
+      { kind: "code", href: "https://github.com/agusvillamil/RunGodinRun" },
+    ],
     image: {
       src: "/projects/run-godin-run.webp",
       pixelated: true,
