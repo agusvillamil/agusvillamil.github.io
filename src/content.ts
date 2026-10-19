@@ -254,7 +254,10 @@ export const projects: Project[] = [
       es: "Mezcla de tower defense y supervivencia, hecha por un equipo de siete para la Global Game Jam 2025. Hice el menú principal, la tienda con su sistema de monedas, el temporizador de 15 minutos y el HUD.",
     },
     tags: ["C#", "Unity 6", "URP 2D"],
-    links: [],
+    links: [
+      // Build served from the agusvillamil/bubble-defense repo; the team's source repo stays private.
+      { kind: "play", href: "/bubble-defense/" },
+    ],
     image: {
       src: "/projects/bubble-defense.webp",
       pixelated: true,
