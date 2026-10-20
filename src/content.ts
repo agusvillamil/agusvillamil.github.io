@@ -284,6 +284,26 @@ export const projects: Project[] = [
     },
   },
   {
+    id: "banking-database",
+    title: { en: "Banking database", es: "Base de datos bancaria" },
+    kind: { en: "University team project", es: "Proyecto universitario en equipo" },
+    year: "2024",
+    summary: {
+      en: "Banking database for the Databases course at UNS, built by a team of two. In MySQL, withdrawals and transfers are stored procedures that lock rows inside a transaction, a trigger generates each loan's installments and the ATM sees account activity only through a view. We also wrote the data layer of its Java desktop app, which follows MVC and uses JDBC with the DAO pattern.",
+      es: "Base de datos bancaria para la materia Bases de Datos de la UNS, hecha en un equipo de dos. En MySQL, las extracciones y transferencias son procedimientos almacenados que bloquean filas dentro de una transacción, un trigger genera las cuotas de cada préstamo y el cajero automático ve los movimientos solo a través de una vista. También escribimos la capa de datos de su aplicación de escritorio en Java, que sigue MVC y usa JDBC con el patrón DAO.",
+    },
+    tags: ["SQL", "MySQL", "Stored procedures", "Java", "JDBC", "MVC"],
+    // The course repo (drg-dcic-uns) is private, so there is no code link.
+    links: [],
+    image: {
+      src: "/projects/banking-database.webp",
+      alt: {
+        en: "Diagram of the main tables, with the loan trigger, the transfer procedures and the ATM view",
+        es: "Diagrama de las tablas principales, con el trigger de préstamos, los procedimientos de transferencia y la vista del cajero",
+      },
+    },
+  },
+  {
     id: "candy-crush",
     title: { en: "Candy Crush in Java", es: "Candy Crush en Java" },
     kind: { en: "University team project", es: "Proyecto universitario en equipo" },
