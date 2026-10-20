@@ -293,7 +293,10 @@ export const projects: Project[] = [
       es: "Juego de combinar caramelos para escritorio, hecho en un equipo de tres, con cinco niveles, caramelos especiales y puntajes guardados. Las reglas de combinación usan el patrón Strategy y las skins, el patrón State.",
     },
     tags: ["Java", "Swing", "Threads", "UML"],
-    links: [],
+    links: [
+      // Web build (CheerpJ) served from the agusvillamil/candy-crush repo; the course's source repo stays private.
+      { kind: "play", href: "/candy-crush/" },
+    ],
     image: {
       src: "/projects/candy-crush.webp",
       alt: {
