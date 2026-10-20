@@ -289,8 +289,8 @@ export const projects: Project[] = [
     kind: { en: "University team project", es: "Proyecto universitario en equipo" },
     year: "2024",
     summary: {
-      en: "Banking database for the Databases course at UNS, made by a team of two. I wrote all of the team's code, and we worked on the design together. In MySQL, withdrawals and transfers are stored procedures that lock rows inside a transaction, a trigger generates each loan's installments and the ATM sees account activity only through a view. I also built the data layer of its Java desktop app with JDBC and the DAO pattern, following MVC.",
-      es: "Base de datos bancaria para la materia Bases de Datos de la UNS, hecha en un equipo de dos. Escribí todo el código del equipo, y el diseño lo trabajamos entre los dos. En MySQL, las extracciones y transferencias son procedimientos almacenados que bloquean filas dentro de una transacción, un trigger genera las cuotas de cada préstamo y el cajero automático ve los movimientos solo a través de una vista. También hice la capa de datos de su aplicación de escritorio en Java con JDBC y el patrón DAO, siguiendo MVC.",
+      en: "Banking database for the Databases course at UNS. In MySQL, withdrawals and transfers are stored procedures that lock rows inside a transaction, a trigger generates each loan's installments and the ATM sees account activity only through a view. Its Java desktop app reaches the database through a JDBC data layer built with the DAO pattern, following MVC.",
+      es: "Base de datos bancaria para la materia Bases de Datos de la UNS. En MySQL, las extracciones y transferencias son procedimientos almacenados que bloquean filas dentro de una transacción, un trigger genera las cuotas de cada préstamo y el cajero automático ve los movimientos solo a través de una vista. Su aplicación de escritorio en Java accede a la base con una capa de datos en JDBC y el patrón DAO, siguiendo MVC.",
     },
     tags: ["SQL", "MySQL", "Stored procedures", "Java", "JDBC", "MVC"],
     // The course repo (drg-dcic-uns) is private, so there is no code link.
